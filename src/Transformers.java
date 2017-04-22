@@ -8,11 +8,11 @@ public class Transformers {
 		Team decepticons = new Team(Faction.DECEPTICONS);
 		
 		if(args.length > 0) {
-            File file = new File(args[0]);
-            Team.readTeamsFromFile(file, autobots, decepticons);
-            System.out.println("File read.\nAutobots: " + autobots.toString() + "\nvs\nDecepticons: " + decepticons.toString());
-        } else {
-        	String[] teams = new String[]{
+			File file = new File(args[0]);
+			Team.readTeamsFromFile(file, autobots, decepticons);
+			System.out.println("File read.\nAutobots: " + autobots.toString() + "\nvs\nDecepticons: " + decepticons.toString());
+		} else {
+			String[] teams = new String[]{
         			"Soundwave, D, 8,9,2,6,7,5,6,10",
         			"Bluestreak, A, 6,6,7,9,5,2,9,7",
         			"Hubcap, A, 4,4,4,4,4,4,4,4"
