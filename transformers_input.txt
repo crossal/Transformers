@@ -1,0 +1,8 @@
+Soundwave, D, 8,9,2,6,7,5,6,10
+Bluestreak, A, 6,6,7,9,5,2,9,7
+Hubcap, A, 4,4,4,4,4,4,4,4
+Megatron, D, 9,9,7,6,10,7,8,10
+Bumblebee, A, 6,6,6,7,8,5,6,7
+Jazz, A, 5,5,4,5,4,5,4,4
+Optimus Prime, A, 9,9,8,8,10,8,8,10
+Starscream, D, 7,8,8,7,8,7,7,8
