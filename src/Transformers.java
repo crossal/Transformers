@@ -16,7 +16,7 @@ public class Transformers {
         			"Soundwave, D, 8,9,2,6,7,5,6,10",
         			"Bluestreak, A, 6,6,7,9,5,2,9,7",
         			"Hubcap, A, 4,4,4,4,4,4,4,4"
-        	};
+			};
 			Team.readTeamsFromStringArray(teams, autobots, decepticons);
 			System.out.println("No file to read. Using default teams..\nAutobots: " + autobots.toString() + "\nvs\nDecepticons: " + decepticons.toString());
 		}
