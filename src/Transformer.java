@@ -60,7 +60,7 @@ public class Transformer implements Comparable<Transformer> {
 		}
 		
 		if (this.firepower < 1 || this.firepower > 10) {
-			attributeName = attributeName.equalsIgnoreCase("") ? "rank" : attributeName + ", rank";
+			attributeName = attributeName.equalsIgnoreCase("") ? "firepower" : attributeName + ", firepower";
 		}
 		
 		if (this.skill < 1 || this.skill > 10) {
