@@ -14,6 +14,7 @@ public class Transformer implements Comparable<Transformer> {
 	private int rating;
 	
 	public Transformer(String name, Faction faction, int strength, int intelligence, int speed, int endurance, int rank, int courage, int firepower, int skill) {
+		
 		this.name = name;
 		this.faction = faction;
 		this.strength = strength;
@@ -72,12 +73,10 @@ public class Transformer implements Comparable<Transformer> {
 	}
 	
 	public String getName() {
-		
 		return this.name;
 	}
 	
 	public Faction getFaction() {
-		
 		return this.faction;
 	}
 	
@@ -91,6 +90,7 @@ public class Transformer implements Comparable<Transformer> {
      *			wins, ties, or loses to the specified object.
 	 */
 	public int battle(Transformer opponent) {
+		
 		if (this.name.equalsIgnoreCase("Optimus Prime") || this.name.equalsIgnoreCase("Predaking")) {
 			if (opponent.name.equalsIgnoreCase("Optimus Prime") || opponent.name.equalsIgnoreCase("Predaking")) {
 				return 2;

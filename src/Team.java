@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
 public class Team {
 	
 	private List<Transformer> transformers;
@@ -41,7 +40,6 @@ public class Team {
 	}
 	
 	public Faction getFaction() {
-		
 		return this.faction;
 	}
 	
@@ -94,6 +92,7 @@ public class Team {
 	}
 	
 	public String toString() {
+		
 		String result = "";
 		
 		for (Transformer transformer : this.transformers) {
