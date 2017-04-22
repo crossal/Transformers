@@ -17,9 +17,9 @@ public class Transformers {
         			"Bluestreak, A, 6,6,7,9,5,2,9,7",
         			"Hubcap, A, 4,4,4,4,4,4,4,4"
         	};
-        	Team.readTeamsFromStringArray(teams, autobots, decepticons);
-        	System.out.println("No file to read. Using default teams..\nAutobots: " + autobots.toString() + "\nvs\nDecepticons: " + decepticons.toString());
-        }
+			Team.readTeamsFromStringArray(teams, autobots, decepticons);
+			System.out.println("No file to read. Using default teams..\nAutobots: " + autobots.toString() + "\nvs\nDecepticons: " + decepticons.toString());
+		}
 		
 		int numberOfBattles = 0;
 		int smallerTeamSize = Math.min(autobots.getTransformers().size(), decepticons.getTransformers().size());
