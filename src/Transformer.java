@@ -86,8 +86,7 @@ public class Transformer implements Comparable<Transformer> {
 	 * Returns 0 if battle is tied.
 	 * Returns -1 if argument is the winner.
 	 * @param 	opponent the transformer to battle against
-	 * @return	a negative integer, zero, or a positive integer as this object
-     *			wins, ties, or loses to the specified object.
+	 * @return	a negative integer, zero, or a positive integer as this object wins, ties, or loses to the specified object.
 	 */
 	public int battle(Transformer opponent) {
 		
